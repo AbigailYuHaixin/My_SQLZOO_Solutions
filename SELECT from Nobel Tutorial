@@ -50,4 +50,12 @@
 
 ** Harder Questions **
 11. Umlaut
-# 
+# SELECT *
+# FROM nobel
+# WHERE winner = 'PETER GRÜNBERG'
+
+12. Apostrophe
+*/
+SELECT *
+FROM nobel
+WHERE winner = 'EUGENE O''NEILL'
