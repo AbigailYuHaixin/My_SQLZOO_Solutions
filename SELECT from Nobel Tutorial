@@ -44,3 +44,6 @@
 # WHERE yr = 1980 AND subject NOT IN ('Chemistry', 'Medicine')
 
 10. Early Medicine, Late Literature
+# SELECT *
+# FROM nobel
+# WHERE (subject = 'Medicine' AND yr < 1910) OR (subject = 'Literature' AND yr >= 2004)
