@@ -1,0 +1,4 @@
+1. What's the capital of France
+# SELECT capital
+# FROM world
+# WHERE name = 'France'
