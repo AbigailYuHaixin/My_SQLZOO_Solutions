@@ -1,0 +1,3 @@
+** CONCAT allows you to stick two or more strings together. **
+
+CONCAT(s1, s2 ...)
