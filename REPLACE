@@ -1,0 +1,2 @@
+** REPLACE(f, s1, s2) returns the string f with all occurances of s1 replaced with s2 **
+REPLACE('vessel','e','a') => 'vassal'
