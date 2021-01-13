@@ -1,0 +1,9 @@
+1. The population of France.
+# SELECT population
+# FROM bbc
+# WHERE name = 'France'
+
+2. The names and population densities for the very large countries.
+# SELECT name, population/area
+# FROM bbc
+# WHERE area > 5000000
