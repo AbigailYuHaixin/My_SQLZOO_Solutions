@@ -46,3 +46,9 @@
 # SELECT name, ROUND(gdp/population, -3)
 # FROM world
 # WHERE gdp >= 1000000000000
+
+11. Name and capital have the same length
+# SELECT name, capital
+# FROM world
+# WHERE LENGTH(name) = LENGTH(capital)
+
