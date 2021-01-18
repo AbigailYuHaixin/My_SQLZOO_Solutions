@@ -1,0 +1,13 @@
+1. Select the code which gives the name of countries beginning with U.
+# SELECT name
+# FROM world
+# WHERE name LIKE 'U%'
+
+2. Select the code which shows just the population of United Kingdom?
+# SELECT population
+# FROM world
+# WHERE name = 'United Kingdom'
+
+3. ...
+
+4. ...
