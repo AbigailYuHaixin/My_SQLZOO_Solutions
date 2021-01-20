@@ -4,8 +4,7 @@
 # WHERE yr = 1950
 
 2. 1962 Literature
-# SELECT winner
-# FROM nobel
+# SELECT winner FROM nobel
 # WHERE yr = 1962 AND subject = 'Literature'
 
 3. Albert Einstein
@@ -14,38 +13,31 @@
 # WHERE winner = 'Albert Einstein'
 
 4. Recent Peace Prizes
-# SELECT winner
-# FROM nobel
+# SELECT winner FROM nobel
 # WHERE subject = 'Peace' AND yr >= 2000
 
 5. Literature in 1980's
-# SELECT *
-# FROM nobel
+# SELECT * FROM nobel
 # WHERE subject = 'Literature' AND yr BETWEEN 1980 AND 1989
 
 6. Only Presidents
-# SELECT *
-# FROM nobel
+# SELECT * FROM nobel
 # WHERE winner IN ('Theodore Roosevelt', 'Woodrow Wilson', 'Jimmy Carter', 'Barack Obama')
 
 7.John
-# SELECT winner
-# FROM nobel
+# SELECT winner FROM nobel
 # WHERE winner LIKE 'John%'
 
 8. Chemistry and Physics from different years
-# SELECT *
-# FROM nobel
+# SELECT * FROM nobel
 # WHERE (yr = 1980 AND subject = 'Physics') OR (yr = 1984 AND subject = 'Chemistry)
 
 9. Exclude Chemists and Medics
-# SELECT *
-# FROM nobel
+# SELECT * FROM nobel
 # WHERE yr = 1980 AND subject NOT IN ('Chemistry', 'Medicine')
 
 10. Early Medicine, Late Literature
-# SELECT *
-# FROM nobel
+# SELECT * FROM nobel
 # WHERE (subject = 'Medicine' AND yr < 1910) OR (subject = 'Literature' AND yr >= 2004)
 
 ** Harder Questions **
