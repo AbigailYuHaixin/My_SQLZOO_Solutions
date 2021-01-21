@@ -6,10 +6,11 @@
                      WHERE name = 'Brazil')
 
 2. Multiple Results
-# SELECT name, continent FROM world
+# SELECT name, continent
+# FROM world
 # WHERE continent IN (SELECT continent 
-                      FROM world WHERE name='Brazil'
-                      OR name='Mexico')
+                      FROM world
+                      WHERE name='Brazil' OR name='Mexico')
                       
 3. Subquery on the SELECT line
 # SELECT population/(SELECT population
