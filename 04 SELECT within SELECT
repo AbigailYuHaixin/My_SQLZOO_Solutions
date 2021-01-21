@@ -3,7 +3,7 @@
 # FROM world
 # WHERE population > (SELECT population
                       FROM world
-                      WHERE name = 'Russia'
+                      WHERE name = 'Russia')
                       
 2. Richer than UK
 # SELECT name
