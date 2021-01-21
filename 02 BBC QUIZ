@@ -11,3 +11,15 @@
 3. ...
 
 4. ...
+
+5. Select the code which would reveal the name and population of countries in Europe and Asia.
+# SELECT name, population
+# FROM world
+# WHERE continent IN ('Europe', 'Asia')
+
+6. Select the code which would give two rows.
+# SELECT name
+# FROM world
+# WHERE name IN ('Cuba', 'Togo')
+
+7. ...
