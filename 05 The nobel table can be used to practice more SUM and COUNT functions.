@@ -11,4 +11,20 @@
 # FROM nobel
 # WHERE subject = 'Physics'
 
-4. 
+4. For each subject show the subject and the number of prizes.
+# SELECT subject
+# FROM nobel
+# GROUP BY subject
+
+5. For each subject show the first year that the prize was awarded.
+# SELECT subject, MIN(yr)
+# FROM nobel
+# GROUP BY subject
+
+6. For each subject show the number of prizes awarded in the year 2000.
+# SELECT subject, COUNT(winner)
+# FROM nobel
+# WHERE yr = 2000
+# GROUP BY subject
+
+7. 
