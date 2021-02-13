@@ -1,0 +1,12 @@
+1. Joining two tables
+# SELECT *
+# FROM casting
+# JOIN actor ON casting.actorid = actor.id
+# WHERE actor.name = 'John Hurt'
+
+2. Joining three tables
+# SELECT *
+# FROM movie
+# JOIN casting ON movie.id = casting.movieid
+# JOIN actor ON actor.id = casting.actorid
+# WHERE actor.name = 'John Hurt'
