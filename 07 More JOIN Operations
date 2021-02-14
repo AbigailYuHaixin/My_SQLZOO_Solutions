@@ -67,5 +67,16 @@
 # GROUP BY yr
 # HAVING COUNT(yr) > 2
 
-12. 
+12. Lead actor in Julie Andrews movies
+# SELECT title, name
+# FROM movie
+# JOIN casting ON movie.id = casting.movieid
+# JOIN actor ON casting.actorid = actor.id
+# WHERE ord = 1 AND movieid IN (SELECT movieid
+                                FROM casting
+                                WHERE actorid IN (SELECT id
+                                                  FROM actor
+                                                  WHERE name = 'Julie Andrews'))
+                                                  
+13. 
 
