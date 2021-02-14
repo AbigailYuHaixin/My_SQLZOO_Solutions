@@ -58,6 +58,8 @@
 # JOIN actor ON casting.actorid = actor.id
 # WHERE yr = 1962 AND ord = 1
 
+** Harder Questions **
+
 11. Busy years for Rock Hudson
 # SELECT yr, COUNT(title)
 # FROM movie
